@@ -12,3 +12,12 @@ songs.extend(["You're the Reason Our Kids Are So Ugly",
 songs.insert(2, "If the Phone Doesn't Ring, It's Me")
 
 songs.remove("Do It")
+
+animals = ["Platapus", "Hippopotamus", "Slack-Jawed Yokel"]
+
+animals.append("Grumpy Cat")
+print(animals[2])
+del animals[0]
+
+for animal in animals:
+    print(animal)
